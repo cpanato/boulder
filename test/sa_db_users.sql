@@ -31,7 +31,9 @@ GRANT INSERT,SELECT ON serials TO 'sa'@'localhost';
 GRANT SELECT,INSERT ON precertificates TO 'sa'@'localhost';
 GRANT SELECT,INSERT ON keyHashToSerial TO 'sa'@'localhost';
 GRANT SELECT,INSERT ON blockedKeys TO 'sa'@'localhost';
-GRANT SELECT,INSERT,UPDATE ON newOrdersRL TO 'sa'@'localhost';
+GRANT SELECT,INSERT,UPDATE ON incidents TO 'sa'@'localhost';
+GRANT SELECT,INSERT,UPDATE ON incident_fooIncident TO 'sa'@'localhost';
+GRANT SELECT,INSERT,UPDATE ON incident_barIncident TO 'sa'@'localhost';
 
 GRANT SELECT ON certificates TO 'sa_ro'@'localhost';
 GRANT SELECT ON certificateStatus TO 'sa_ro'@'localhost';
